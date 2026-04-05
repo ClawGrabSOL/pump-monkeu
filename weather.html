@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Weather — The Harlan County Courier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="hcc.css" />
+</head>
+<body>
+<script src="hcc.js"></script><script>buildSite('weather.html');</script>
+<div class="page-wrap">
+  <div class="section-header"><h2>Weather</h2><p>Local forecast for Harlan, KY and surrounding communities. Updated daily.</p></div>
+
+  <!-- TODAY HERO -->
+  <div style="background:#fff;border:1px solid #e0d9cc;border-radius:2px;padding:28px 32px;margin-bottom:24px;display:flex;align-items:center;gap:32px">
+    <div style="font-size:72px">⛅</div>
+    <div>
+      <div style="font-family:'Inter',sans-serif;font-size:11px;color:#888;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px">Harlan, KY &nbsp;·&nbsp; Sunday, April 6, 2025</div>
+      <div style="font-size:52px;font-weight:700;line-height:1;margin-bottom:6px">61°F</div>
+      <div style="font-family:'Inter',sans-serif;font-size:14px;color:#555;margin-bottom:8px">Partly Cloudy</div>
+      <div style="display:flex;gap:20px;font-family:'Inter',sans-serif;font-size:12px;color:#888">
+        <span>High <strong style="color:#333">64°</strong></span>
+        <span>Low <strong style="color:#333">44°</strong></span>
+        <span>Humidity <strong style="color:#333">58%</strong></span>
+        <span>Wind <strong style="color:#333">NW 8 mph</strong></span>
+        <span>Precip <strong style="color:#333">10%</strong></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5-DAY -->
+  <div class="weather-grid">
+    <div class="weather-day" style="border-top:3px solid #8b6914">
+      <div class="wd-label">Today</div>
+      <div class="wd-icon">⛅</div>
+      <div class="wd-hi">64°</div>
+      <div class="wd-lo">44°</div>
+      <div class="wd-desc">Partly Cloudy</div>
+    </div>
+    <div class="weather-day">
+      <div class="wd-label">Monday</div>
+      <div class="wd-icon">🌧</div>
+      <div class="wd-hi">58°</div>
+      <div class="wd-lo">42°</div>
+      <div class="wd-desc">Showers Likely</div>
+    </div>
+    <div class="weather-day">
+      <div class="wd-label">Tuesday</div>
+      <div class="wd-icon">🌦</div>
+      <div class="wd-hi">55°</div>
+      <div class="wd-lo">39°</div>
+      <div class="wd-desc">AM Showers</div>
+    </div>
+    <div class="weather-day">
+      <div class="wd-label">Wednesday</div>
+      <div class="wd-icon">🌤</div>
+      <div class="wd-hi">62°</div>
+      <div class="wd-lo">41°</div>
+      <div class="wd-desc">Mostly Sunny</div>
+    </div>
+    <div class="weather-day">
+      <div class="wd-label">Thursday</div>
+      <div class="wd-icon">☀️</div>
+      <div class="wd-hi">68°</div>
+      <div class="wd-lo">46°</div>
+      <div class="wd-desc">Sunny</div>
+    </div>
+  </div>
+
+  <div style="background:#f0ead8;border:1px solid #d9cfa8;padding:14px 18px;margin-bottom:32px;font-family:'Inter',sans-serif;font-size:12px;line-height:1.6;color:#555">
+    <strong style="color:#8b6914">AGRICULTURAL NOTE:</strong> Soil temperatures in the county's lower elevations are currently running between 48°F and 52°F. The upcoming rain Monday–Tuesday may delay field prep for some producers, but extension agents say conditions should recover by mid-week. A frost advisory remains possible for hollows and low-lying areas Tuesday night. Growers with transplants are advised to monitor overnight lows.
+  </div>
+
+  <div style="max-width:500px">
+    <div style="font-family:'Playfair Display',serif;font-size:18px;font-weight:700;border-bottom:2px solid #1a1a1a;padding-bottom:6px;margin-bottom:14px">Nearby Communities</div>
+    <table style="width:100%;border-collapse:collapse;font-family:'Inter',sans-serif;font-size:12px">
+      <tr style="border-bottom:1px solid #e0d9cc;color:#888;font-size:10px;text-transform:uppercase;letter-spacing:.8px">
+        <th style="padding:8px 0;text-align:left;font-weight:600">Location</th>
+        <th style="padding:8px;text-align:center;font-weight:600">Today Hi</th>
+        <th style="padding:8px;text-align:center;font-weight:600">Tonight Lo</th>
+        <th style="padding:8px;text-align:center;font-weight:600">Conditions</th>
+      </tr>
+      <tr style="border-bottom:1px solid #eee"><td style="padding:8px 0">Harlan</td><td style="text-align:center;padding:8px">64°</td><td style="text-align:center;padding:8px">44°</td><td style="text-align:center;padding:8px">⛅</td></tr>
+      <tr style="border-bottom:1px solid #eee"><td style="padding:8px 0">Evarts</td><td style="text-align:center;padding:8px">62°</td><td style="text-align:center;padding:8px">43°</td><td style="text-align:center;padding:8px">🌤</td></tr>
+      <tr style="border-bottom:1px solid #eee"><td style="padding:8px 0">Cumberland</td><td style="text-align:center;padding:8px">66°</td><td style="text-align:center;padding:8px">45°</td><td style="text-align:center;padding:8px">☀️</td></tr>
+      <tr style="border-bottom:1px solid #eee"><td style="padding:8px 0">Lynch</td><td style="text-align:center;padding:8px">59°</td><td style="text-align:center;padding:8px">41°</td><td style="text-align:center;padding:8px">⛅</td></tr>
+      <tr><td style="padding:8px 0">Benham</td><td style="text-align:center;padding:8px">60°</td><td style="text-align:center;padding:8px">42°</td><td style="text-align:center;padding:8px">🌤</td></tr>
+    </table>
+  </div>
+  <div style="height:40px"></div>
+</div>
+</body></html>

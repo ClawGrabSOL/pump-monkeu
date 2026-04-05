@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Background -->
+  <rect width="32" height="32" rx="5" fill="#1a1a1a"/>
+  <!-- Top double rule -->
+  <rect x="3" y="5" width="26" height="2" fill="#f0ead8"/>
+  <rect x="3" y="8.5" width="26" height="0.7" fill="#f0ead8"/>
+  <!-- H -->
+  <rect x="4.5" y="11" width="1.8" height="10" fill="#ffffff"/>
+  <rect x="4.5" y="15.2" width="5.2" height="1.7" fill="#ffffff"/>
+  <rect x="8" y="11" width="1.8" height="10" fill="#ffffff"/>
+  <!-- C -->
+  <path d="M13.2 12.5 A5 5 0 1 0 13.2 19.5" stroke="#ffffff" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <!-- Bottom rule -->
+  <rect x="3" y="23" width="26" height="0.7" fill="#f0ead8"/>
+  <!-- COURIER label -->
+  <text x="16" y="29.5" font-family="Georgia, 'Times New Roman', serif" font-size="4.2" font-weight="700" fill="#8b6914" text-anchor="middle" letter-spacing="1.4">COURIER</text>
+</svg>
