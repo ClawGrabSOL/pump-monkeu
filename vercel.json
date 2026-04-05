@@ -1,0 +1,16 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "routes": [
+    { "src": "/", "dest": "/news-home.html" },
+    { "src": "/pumpfun", "dest": "/pumpfun-article.html" },
+    { "src": "/local", "dest": "/local.html" },
+    { "src": "/agriculture", "dest": "/agriculture.html" },
+    { "src": "/schools", "dest": "/schools.html" },
+    { "src": "/sports", "dest": "/sports.html" },
+    { "src": "/opinion", "dest": "/opinion.html" },
+    { "src": "/weather", "dest": "/weather.html" },
+    { "src": "/obituaries", "dest": "/obituaries.html" },
+    { "src": "/classifieds", "dest": "/classifieds.html" }
+  ]
+}
